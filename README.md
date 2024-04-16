@@ -26,13 +26,15 @@ python build.py
 
 * Run RL-based mapping search of TensorMap on TPU
 ```
-./run_tpu.sh
+./run_tpu_rl.sh
 ```
 
 * Run RL of mapping search TensorMap on Eyeriss
 ```
-./run_eyeriss.sh
+./run_eyeriss_rl.sh
 ```
 
 * Run GA-based improvement of TensorMap
-``
+```
+./run_tpu_ga.sh
+```
